@@ -1,0 +1,172 @@
+*{
+    position: relative;
+}
+
+
+
+.ulls{
+    overflow: hidden;
+    top: 10px;
+}
+
+.ulldret, .ullesq{
+    width: 70px;
+    height: 30px;
+    border-radius: 100%;
+    box-shadow: 0 -2px 2px 0 brown;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ulldret{
+    float: right;
+    margin-right: 120px;
+}
+
+.ullesq{
+    float: left;
+    margin-left: 120px;
+}
+
+.pupila{
+    width: 30px;
+    height: 30px;
+    margin: 3px 20px;
+    border-radius: 100%;
+    background-color: rgb(60, 40, 0);
+}
+
+.celles {
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.cellaesq, .celladreta{
+    height: 20px;
+    width: 100px;
+    border-radius: 100% 100% 0% 0%;
+    background-color: rgb(99, 66, 0);
+    z-index: 1001;
+}
+
+.cellaesq{
+float: left;
+margin-left: 100px;
+}
+
+.celladreta{
+float: right;
+margin-right: 100px;
+}
+
+.cap{
+    MARGIN: 0 AUTO;
+    width: 450px;
+    height: 600px;
+    background-color: rgb(255, 200, 138);
+    border-radius: 150px 150px 400px 400px;
+}
+
+.cap::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    background: rgb(255, 200, 138);
+    border-radius: 50%;
+    z-index: 900;
+    top: 125px;
+    left: -7px;
+    transform: rotate(29deg);
+}
+
+.cap::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    background: rgb(255, 200, 138);
+    border-radius: 50%;
+    z-index: 901;
+    top: 125px;
+    right: -7px;
+    transform: rotate(-29deg);
+}
+
+.pel{
+    left: -10px;
+    width: 470px;
+    height: 180px;
+    background-color: rgb(144, 96, 0);
+    border-radius: 150px 150px 200px 200px;
+    top: 0;
+}
+
+.nas{
+    margin-left: -10px;
+    margin-top: -200px;
+    position: relative;
+}
+
+.nas1{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 230px;
+    transform: rotate(-20deg);
+    border-right: rgb(60, 40, 0) 2.5px solid;
+    border-bottom: rgb(60, 40, 0) 2.5px solid;
+    border-radius: 0 0 15% 10%;
+}
+
+.nas2{
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(60, 40, 0);
+    left: 255px;
+    top: 290px;
+    transform: rotate(-15deg);
+}
+
+.pirsin{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(239, 239, 239);
+    left: 260px;
+    top: 265px;
+}
+
+.peca{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgb(60, 40, 0);
+    left: 145px;
+    top: 60px;
+}
+
+.mandibulaE {
+    width: 280px;
+    height: 75px;
+    background-color: white;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    top: 470px;
+    left: -85px;
+    transform: rotate(45deg);
+    position: absolute;
+    }
+
+.mandibulaD {
+        width: 280px;
+        height: 75px;
+        background-color: white;
+        border-radius: 0 0 50% 50% / 0 0 100% 100%;
+        top: 470px;
+        right: -85px;
+        transform: rotate(-45deg);
+        position: absolute;
+        }

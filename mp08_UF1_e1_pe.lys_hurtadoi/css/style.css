@@ -1,0 +1,139 @@
+*{
+    font-family: sans-serif;
+}
+
+.menu{
+    width: 100%;
+    height: 3.125rem;
+    background-color: black;
+    margin-left: -0.625rem;
+    margin-top: -0.625rem;
+    z-index: 2;
+}
+
+.menu img{
+    margin-left: 20px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.3125rem;
+}
+
+ul{
+    margin-top: -27px;
+    margin-left: 30px;
+}
+
+li{
+    display: inline;
+    padding: 0.3125rem;
+}
+
+.primer{
+    margin-left: 70px;
+}
+
+.segon{
+    margin-left: 118.75rem;
+    margin-top: -35px;
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.cartelera{
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 2000px;
+    margin-left: -0.625rem;
+    color: white;
+    z-index: 1;
+    margin-top: -16px;
+}
+
+.documentals{
+    margin-left: 0.625rem;
+}
+
+.cartelera h1{
+    margin-left: 20px;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-top: 15px;
+}
+
+.titolpeli{
+    margin-top: -0.3125rem;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.num{
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -3px;
+}
+
+.tipo{
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -3px;
+}
+
+.d1{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d2{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d3{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d4{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d5{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d6{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d7{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d8{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d9{
+    float: left;
+    margin: 0.625rem;
+}
+
+.d10{
+    float: left;
+    margin: 0.625rem;
+}
