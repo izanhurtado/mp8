@@ -1,0 +1,177 @@
+.menu{
+    background-color: white;
+    height: px;
+}
+
+.contactes{
+    background-color: white;
+    height: 195px;
+}
+
+.contingut{
+    height: 1800px;
+    width: 1700px;
+    margin: auto;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 200px;
+}
+
+ul{
+    width: 1060px;
+    margin: auto;
+    padding: 36px;
+    font-size: 12px;
+}
+
+#contacte01{
+    background-image: url(../img/Post_0000_Capa-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte02{
+    background-image: url(../img/Post_0002_00fcb7003ff9c6794a4f162dd0f1cf5a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte03{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte04{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte05{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte06{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte07{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte08{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte09{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacte10{
+    background-image: url(../img/Post_0006_E1rZy0CXEAkofQc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-size: 100%;
+    background-image: url(../img/3.png);
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.user{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin: 30px;
+    background-size: 100%;
+    float: right;
+    background-image: url(../img/Post_0004_maxresdefault.png);
+}
+
+.nav{
+    width: 336px;
+    height: 50px;
+    margin: auto;
+}
+
+.nav ul{
+    height: 50px;
+    width: 210px;
+    padding: 0;
+    margin: auto;
+}
+
+.nav ul li{
+    height: 42px;
+    width: 42px;
+    margin: 4px;
+}
+
+.home{background-image: url(../img/home.png);}
+.search{background-image: url(../img/search.png);}
+.tv{background-image: url(../img/tv.png);}
+.like{background-image: url(../img/like.png);}
+
+.post{
+    width: 545px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+
+.post img{
+    width: 535px;
+}
+
+.post div{
+    width: 100px;
+    margin: 5px;
+}
+.post .postejador{
+    float: left;
+}
+
+.post .postejador img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.post .reaccions{
+    float: right;
+}
+
+.post h5{
+    height: 25px;
+}
+
+.post h6{
+    height: 25px;
+}
