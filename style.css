@@ -1,3 +1,18 @@
-body{
-    background-color: red;
+body {
+    background: rgb(255, 247, 233);
+}
+
+
+ul a {
+    display: block;
+    width: 15rem;
+    height: 20rem;
+    background: rgb(255, 183, 68);
+    border-radius: 5%;
+    float: left;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+li {
+    
 }
