@@ -1,18 +1,103 @@
 body {
-    background: rgb(255, 247, 233);
+    background-image: url(img/Kame\ House.png);
+    background-size: cover;
+    height: 6965px;
 }
 
+ul{
+    list-style-type: none;
+    height: 6965px;
+    overflow: hidden;
+}
+
+li{
+    text-align: center;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 325px;
+}
+
+.un{
+    background-image: url(img/1.png);
+    background-position: center;
+    background-size: cover;
+    
+    animation: 
+    ballHover var(--hoverSpeed) 
+    infinite 
+    ease-in-out,
+    sceneRotate var(--rotateSpeed) 
+    infinite 
+    linear
+    reverse;
+}
+
+.dos{
+    background-image: url(img/2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.tres{
+    background-image: url(img/3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.quatre{
+    background-image: url(img/4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cinc{
+    background-image: url(img/5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sis{
+    background-image: url(img/6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.set{
+    background-image: url(img/7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.vuit{
+    background-image: url(img/1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.nou{
+    background-image: url(img/2.png);
+    background-position: center;
+    background-size: cover;
+}
 
 ul a {
     display: block;
-    width: 15rem;
+    width: 20rem;
     height: 20rem;
     background: rgb(255, 183, 68);
-    border-radius: 5%;
+    border-radius: 50%;
     float: left;
     text-decoration: none;
     margin: 0.5rem;
 }
+
 li {
     
+}
+
+.fantasma {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6965px;
 }
