@@ -1,35 +1,35 @@
 body {
     background-image: url(img/Kame\ House.png);
     background-size: cover;
-    height: 6965px;
+    height: 3500px;
+    margin-left: 12.5rem;
 }
 
 ul{
     list-style-type: none;
-    height: 6965px;
+    height: 3500px;
     overflow: hidden;
 }
 
 li{
-    text-align: center;
-    font-size: medium;
+    position: absolute;
+    font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 325px;
+    margin-top: 22rem;
+    color: white;
+    background: linear-gradient(orange, red);
+    text-shadow: 0rem 2px 4px rgba(0, 0, 0, 3.5);
+    border-radius: 2%;
+    width: 11rem;
+    text-align: center;
+    margin-left: 4.5rem;
+    animation: antioscilacion 3s infinite;
 }
 
 .un{
     background-image: url(img/1.png);
     background-position: center;
     background-size: cover;
-    
-    animation: 
-    ballHover var(--hoverSpeed) 
-    infinite 
-    ease-in-out,
-    sceneRotate var(--rotateSpeed) 
-    infinite 
-    linear
-    reverse;
 }
 
 .dos{
@@ -88,11 +88,9 @@ ul a {
     border-radius: 50%;
     float: left;
     text-decoration: none;
-    margin: 0.5rem;
-}
-
-li {
-    
+    margin: 8rem;
+    text-align: center;
+    animation: oscilacion 3s infinite;
 }
 
 .fantasma {
@@ -100,4 +98,28 @@ li {
     left: 0;
     right: 0;
     top: 6965px;
+}
+
+@keyframes oscilacion {
+    0% {
+        transform: translateY(-0.50rem);
+    }
+    50% {
+        transform: translateY(0.50rem);
+    }
+    100% {
+        transform: translateY(-0.50rem);
+    }
+}
+
+@keyframes antioscilacion {
+    0% {
+        transform: translateY(0.50rem);
+    }
+    50% {
+        transform: translateY(-0.50rem);
+    }
+    100% {
+        transform: translateY(0.50rem);
+    }
 }
