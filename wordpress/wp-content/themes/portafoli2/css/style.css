@@ -1,0 +1,125 @@
+body {
+    background-image: url(../img/KameHouse.png);
+    background-size: cover;
+    height: 3500px;
+    margin-left: 12.5rem;
+}
+
+ul{
+    list-style-type: none;
+    height: 3500px;
+    overflow: hidden;
+}
+
+li{
+    position: absolute;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 22rem;
+    color: white;
+    background: linear-gradient(orange, red);
+    text-shadow: 0rem 2px 4px rgba(0, 0, 0, 3.5);
+    border-radius: 2%;
+    width: 11rem;
+    text-align: center;
+    margin-left: 4.5rem;
+    animation: antioscilacion 3s infinite;
+}
+
+.un{
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.dos{
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.tres{
+    background-image: url(../img/3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.quatre{
+    background-image: url(../img/4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.cinc{
+    background-image: url(../img/5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sis{
+    background-image: url(../img/6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.set{
+    background-image: url(../img/7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.vuit{
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.nou{
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+ul a {
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    background: rgb(255, 183, 68);
+    border-radius: 50%;
+    float: left;
+    text-decoration: none;
+    margin: 8rem;
+    text-align: center;
+    animation: oscilacion 3s infinite;
+}
+
+.fantasma {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6965px;
+}
+
+@keyframes oscilacion {
+    0% {
+        transform: translateY(-0.50rem);
+    }
+    50% {
+        transform: translateY(0.50rem);
+    }
+    100% {
+        transform: translateY(-0.50rem);
+    }
+}
+
+@keyframes antioscilacion {
+    0% {
+        transform: translateY(0.50rem);
+    }
+    50% {
+        transform: translateY(-0.50rem);
+    }
+    100% {
+        transform: translateY(0.50rem);
+    }
+}
