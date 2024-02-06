@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 6</title>
+    <style>
+        body {
+        font-size: 2rem;
+        font-family: Arial, 'Helvetica', sans-serif;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <script>
+        //Declaració de variable
+        var vermell = "vermell";
+        var verd = "verd";
+        
+        //Entrem dades
+        var color = prompt("Entra un color");
+
+        //Comparacions múltiples
+
+        if (color == verd) {
+         document.write("Passa");
+         document.body.style.background="green";
+        }
+        else if (color == vermell) {
+         document.write("Stop");
+         document.body.style.background="red";
+        }
+        else {
+         document.write("Alerta");
+         document.body.style.background="orange";
+        }
+
+
+    </script>
+</body>
+
+</html>

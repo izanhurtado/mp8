@@ -1,0 +1,24 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+}
+
+#sol, #lluna{
+    width: 7rem;
+    height: 7rem;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+#sol{
+    background: orange;
+    margin-left: 2rem;
+    
+}
+
+#lluna{
+    background: transparent;
+    box-shadow: inset #eee -1.5rem -2rem;
+    margin-left: 53rem;
+}
